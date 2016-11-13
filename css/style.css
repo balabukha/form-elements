@@ -1,0 +1,75 @@
+.error {
+    border-color: red;
+}
+
+#error {
+    color: red;
+}
+
+input:focus {
+  background: #FA6;
+  outline: none;  /* убрать рамку */
+}
+
+.ageClass::-webkit-input-placeholder {
+    color: red; 
+}
+
+li {
+    cursor: pointer;
+    padding: 3px;
+}
+
+li:focus{
+    outline: 1px dashed green;
+}
+
+#myForm5, #myForm6{
+    padding: 10px;
+}
+
+.focused {
+    outline: 1px dashed green;
+}
+
+/*.focused1 {
+    border: 1px dashed green;
+}*/
+
+.input6{
+    margin-top: 10px;
+}
+.input6::-webkit-input-placeholder {
+    background: #FFF;
+    color: royalblue; 
+    outline: none;
+}
+
+.input6:focus {
+  background: #FFF;
+  outline: none;  /* убрать рамку */
+}
+
+.newP{
+    position: absolute;
+    color: royalblue;
+    padding-top: 20px;
+}
+
+
+
+
+#mouse {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+}
+
+#mouse:focus {
+    outline: 1px dashed black;
+}
+
+
+#diagram td {
+    vertical-align: bottom;
+}

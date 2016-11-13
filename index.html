@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+
+<table>
+	<tr>
+		<td><label for="one">oneLabel</label> </td>
+		<td><input id="one"type="radio"> </td>
+	</tr>
+	<tr>
+		<td><label for="two">twoLabel</label> </td>
+		<td><input id="two"type="checkbox"  </td>
+	</tr>	
+</table>
+
+
+<label>ONE<input type="checkbox" id="one"></label>
+
+<!--multiple - для того чтобы много selected поставить-->
+<!--selected - выделено-->
+
+<form name="myForm">
+    <select name="genre" id="" multiple> 
+        <option value="blues" >BLUES</option>
+        <option value="rock" selected>ROCK</option>
+        <option value="classic"selected>CLASSIC</option>
+        
+    </select>
+
+</form>
+
+<!--222222222222222222222222222222222222-->
+
+<form name="myNewForm">
+    <select name="genre" id="" multiple> 
+        <option value="Rock">Рок</option>
+        <option value="Blues" selected>Блюз</option>
+    </select>
+</form>
+
+<!--333333333333333333333333333333333333-->
+
+<span>your age:</span>
+<input type="text" id="inputAge" placeholder="Age" class="ageClass">
+<span id="error" ></span>
+
+<!--444444444444444444444444444444444444-->
+
+<ul>
+    <li tabindex="0">0</li>
+    <li tabindex="2">2</li>
+    <li tabindex="1">1</li>
+    <li tabindex="3">3</li>
+</ul>
+<!--5555555555555555555555555555555555555-->
+
+<form action="" id="myForm5">
+    <input type="text" name="name" value="Your name">
+    <input type="text" name="surname" value="Your surname">
+</form>
+
+<!--6666666666666666666666666666666666666-->
+
+        <form action="" name="myForm6" id="myForm6">
+            <p>Awesome Placeholder</p>
+            <input type="text" placeholder="Email" class="input6">
+        </form>
+
+<!--777777777777777777777777777777777777-->
+
+<div id="mouseDiv">
+<pre id="mouse" tabindex="0">
+ _   _
+(q\_/p)
+ /. .\
+=\_t_/=   __
+ /   \   (
+((   ))   )
+/\) (/\  /
+\  Y  /-'
+ nn^nn
+</pre>
+</div>
+
+<!--8888888888888888888888888888888888888-->
+
+<input type="text" id="items"><span>  Number of items: </span> <span id="result"></span>
+
+<!--99999999999999999999999999999999999999-->
+<form>
+<table>
+ <thead>
+  <tr>
+   <td> Калькулятор процентов, из расчёта 12% годовых. </td>
+  </tr>
+ </thead>
+
+ <tbody>   
+    <tr>
+        <td> Сумма </td>
+        <td><input type="text" id="summStart" name="summStart" value="100"></td>
+    </tr> 
+    <tr>
+        <td> Срок в месяцах </td>
+        <td>
+        <select name="monthVolume" id="monthVolume"> 
+            <option value="3">3 (минимум)</option>
+            <option value="6">6 (полгода)</option>
+            <option value="12" selected>12 (год)</option>
+            <option value="18">18 (1.5 года)</option>
+            <option value="24">24 (2 года)</option>
+            <option value="30">30 (2.5 года)</option>
+            <option value="36">36 (3 года)</option>
+        </select>
+        </td>
+    </tr>
+    <tr>
+        <td> С капитализацией </td>
+        <td> <input name="capitalization" type="checkbox" id="capitalization"></td>
+    </tr>
+</tbody>
+</table>
+</form>
+
+<table id="diagram">
+<tr>
+    <td>Было</td>
+    <td>Станет</td>
+</tr> 
+<tr>
+    <th id="money-before">100</th>
+    <th id="money-after"></th>
+</tr>
+
+<tr>
+    <td><div id="diagram_1" style="background: red; width:40px; height:100px"></div></td>
+    <td><div id="diagram_2" style="background: green; width:40px; height:0"></div></td>
+</tr>
+
+</table>
+
+
+    <script src="common.js "></script>
+</body>
+
+</html>
